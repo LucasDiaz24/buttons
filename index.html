@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="saludo text-center">
+            <p id="saludar" class="animate__animated animate__backInDown mt-3"></p>
+            <p class="mensaje animate__animated animate__backInLeft animate__delay-2s">¡Te estabamos esperando!</p>
+        </div>
+        <div class="botones container">
+            <div class="row d-flex justify-content-center animate__animated animate__pulse animate__delay-4s animate__infinite animate__slow ">
+                <p class="sec1 col-5 d-flex justify-content-center align-items-center"><a class="btn1 d-flex align-items-center text-center" onclick="fechaCumple()" href="#">¿Cuantos dias faltan <br> para tu cumpleaños?</a></P>
+            </div>
+            <div class="row d-flex justify-content-center animate__animated animate__pulse animate__delay-4s animate__infinite animate__slow">
+                <p class="sec2 col-5 d-flex justify-content-center align-items-center" onclick="alert(diasParaTerminarElAno());" ><a class="btn2 d-flex align-items-center text-center" href="#">¿Cuantos dias faltan <br>  para que se <br> termine el año?</a></P>
+            </div>
+            <div class="row d-flex justify-content-center animate__animated animate__pulse animate__delay-4s animate__infinite animate__slow">
+                 <p class="sec3 col-5 d-flex justify-content-center align-items-center" onclick="teDigoTuSigno()"> <a class="btn3 d-flex align-items-center text-center" href="#">¿De que signo sos?</a></P>
+            </div>    
+        </div>
+    </div>
+    <script src="js/myWeb.js"></script>
+</body>
+</html>
